@@ -8,7 +8,8 @@ class Program
 		string? name = Console.ReadLine();
 		
 		ConsoleOutput.ConsoleSayHello(name);
-
+		
+		
 		CalculateData.GetDouble(2.32, 1.23);
 		Console.ReadKey();
 	}
